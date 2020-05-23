@@ -1,0 +1,66 @@
+baseURL = "https://maxrandalmusic.com/"
+languageCode = "en-us"
+title = "Max Randal Music"
+author = "Max Randal"
+googleAnalytics = ""
+theme = "terrassa"
+enableRobotsTXT = true
+
+[params]
+  description = "Max Randal's recordings, scores, musical services and software."
+  favicon = "favicon.ico"
+  logo = ""
+
+[params.contact]
+  email = "max.randal.music@gmail.com"
+  phone = "(425) 999-7975"
+
+[params.form] # Contact form
+  netlify = true
+  action = "https://formspree.io/max.randal.music@gmail.com"
+  method = "POST"
+  inputNameName = "name"
+  inputNameLabel = "Name"
+  inputNamePlaceholder = "Your name"
+  inputEmailName = "email"
+  inputEmailLabel = "Email"
+  inputEmailPlaceholder = "Your email"
+  inputMsgName = "message"
+  inputMsgLabel = "Write something"
+  inputMsgLength = 750
+  inputSubmitValue = "Send"
+
+[params.hero]
+  textColor = "white"
+
+[params.social]
+  facebook = "https://www.facebook.com/max.randal.5/"
+  instagram = "https://www.instagram.com/max.randal/"
+  youtube = "https://www.youtube.com/channel/UCERWiKOZ-r4BWBl4rcCsyJQ/videos"
+  github = "https://github.com/randalpik"
+
+[params.copy]
+  copy = "© 2020 by Max Randal"
+
+[privacy]
+  [privacy.googleAnalytics]
+    anonymizeIP = true
+    disable = false
+    respectDoNotTrack = true
+    useSessionStorage = false
+  [privacy.instagram]
+    disable = false
+    simple = false
+  [privacy.twitter]
+    disable = false
+    enableDNT = true
+    simple = false
+  [privacy.vimeo]
+    disable = false
+    simple = false
+  [privacy.youtube]
+    disable = false
+    privacyEnhanced = true
+
+  [markup.goldmark.renderer]
+    unsafe=true
