@@ -2,7 +2,7 @@
 title: "Scores"
 description: "Coming soon..."
 images: []
-draft: true
+draft: false
 menu: main
 weight: 0
 ---
