@@ -4,12 +4,16 @@ description: "Max's Performances and Compositions"
 images: []
 draft: false
 menu: main
-weight: 0
+weight: 1
 ---
 
 <body class="main-page">
   <div style= "min-height: 69vh; display: flex;">
     <div style="width: 50%; margin-right: 5px;">
+      <h3>The Covid-19 Fugue</h3>
+      by Nicholas Papadimitriou<br>
+      Performed in May 2020
+      {{< youtube 47FGBWX9FuA >}}
       <h3>Variations on a Theme by Paulus</h3>
       by Max Randal<br>
       Performed in April 2020
@@ -29,6 +33,7 @@ weight: 0
       <h3>World of Warcraft Medley</h3>
       Arranged for solo piano<br>
       Recorded by Max Randal in May 2019
+      <a href="https://www.dropbox.com/s/c8wdibqzlud1quc/warcraftNew.pdf?dl=0" target="_blank">Download the score for free</a>
       {{< youtube fTvuMKxb2rY >}}
       <h3>The Well (from The Ring)</h3>
       Arranged for solo piano<br>
@@ -38,7 +43,8 @@ weight: 0
     <div style="width: 50%; margin-left: 5px;">
       <h3>In Christ Alone</h3>
       Arranged by Max Randal for trombone quartet in March 2019<br>
-      Recorded by Scott Randal
+      Recorded by Scott Randal<br>
+      <a href="https://www.dropbox.com/s/cb8wxs9qv0av1c5/inChristAlone_Score.pdf?dl=0" target="_blank">Download the score for free</a>
       <audio controls>
         <source src="../audio/inChristAloneFinal.mp3" type="audio/mp3">
       </audio>

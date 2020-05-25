@@ -26,7 +26,7 @@ enableRobotsTXT = true
   inputEmailLabel = "Email"
   inputEmailPlaceholder = "Your email"
   inputMsgName = "message"
-  inputMsgLabel = "Write something"
+  inputMsgLabel = "Your message"
   inputMsgLength = 750
   inputSubmitValue = "Send"
 
