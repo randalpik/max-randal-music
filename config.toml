@@ -17,7 +17,7 @@ enableRobotsTXT = true
 
 [params.form] # Contact form
   netlify = true
-  action = "https://formspree.io/mvowkaob"
+  action = "https://formspree.io/max.randal.music@gmail.com"
   method = "POST"
   inputNameName = "name"
   inputNameLabel = "Name"
