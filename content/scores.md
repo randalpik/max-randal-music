@@ -25,6 +25,7 @@ weight: 2
       </span>
     </div>
   </template>
+  <script src="https://js.stripe.com/v3/"></script>
   <script type="module">
     import { loadProducts } from '../js/load-products.js';
     loadProducts();
