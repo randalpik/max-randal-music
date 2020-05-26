@@ -1,6 +1,7 @@
 [build]
 publish = "public"
-command = "hugo --gc --minify"
+functions = "functions"
+command = "cd functions && npm i && cd .. && hugo --gc --minify"
 
 [context.production.environment]
 HUGO_VERSION = "0.71.0"

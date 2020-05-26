@@ -40,7 +40,7 @@ weight: 1
       Recorded by Max Randal in April 2017
       {{< youtube IZpM0CAP3Uo >}}
     </div>
-    <div style="width: 50%; margin-left: 5px;">
+    <div style="width: 50%; min-width: 150px; margin-left: 5px;">
       <h3>In Christ Alone</h3>
       Arranged by Max Randal for trombone quartet in March 2019<br>
       Recorded by Scott Randal<br>
