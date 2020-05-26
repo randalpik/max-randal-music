@@ -48,7 +48,7 @@ window.onload = () => {
 
   document.getElementById("RUN").onclick = function () {
     if(shifting == false) {
-      startButton.value = "Stop Shifting";
+      startButton.innerText = "Stop Shifting";
       shifting = true;
       const names = solfege.checked ? ["Do", "Re", "Mi", "Fa", "Sol", "La", "Si"] : ["C", "D", "E", "F", "G", "A", "B"];
       const acc = solfege.checked ? ["-double-flat", "-flat", "", "-sharp", "-double-sharp"] : ["bb", "b", "", "#", "x"];
@@ -83,7 +83,7 @@ window.onload = () => {
           text.innerHTML += "<br>We are in ".concat(names[curKey], acc[curAcc + 2], modes[curMode], ".");
           clearInterval(intID);
           text.innerHTML += "<br>Completed ".concat(n, " shifts.");
-          startButton.value = "Start Shifting"
+          startButton.innerText = "Start Shifting"
           shifting = false;
           text.scrollTop = text.scrollHeight;
         } else {
@@ -120,7 +120,7 @@ window.onload = () => {
       clearInterval(intID);
       text.innerHTML += "<br>Shifting canceled.";
       text.scrollTop = text.scrollHeight;
-      startButton.value = "Start Shifting";
+      startButton.innerText = "Start Shifting";
       shifting = false;
     }
   }
