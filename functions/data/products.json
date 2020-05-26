@@ -3,7 +3,7 @@
     "sku": "001",
     "name": "Piano Sonata No. 1",
     "description": "Max Randal's first completed composition is a sonata for solo piano in three movements, with a performance time of about 15 minutes. (Op. 1, 2018)",
-    "image": "https://www.dropbox.com/s/dbdqyyumptzb5k6/sonataPreview.PNG?dl=0",
+    "image": "https://www.dropbox.com/s/dbdqyyumptzb5k6/sonataPreview.PNG?raw=1",
     "amount": 1000,
     "currency": "USD"
   },
@@ -11,7 +11,7 @@
     "sku": "002",
     "name": "Fantasy No. 1",
     "description": "A piece for trombone and piano, expressing the joy of returning home for the summer. Performance time is about 5 minutes. (Op. 2, 2018)",
-    "image": "https://www.dropbox.com/s/yaaxgutk5c1a5vt/fantasyPreview.PNG?dl=0",
+    "image": "https://www.dropbox.com/s/yaaxgutk5c1a5vt/fantasyPreview.PNG?raw=1",
     "amount": 500,
     "currency": "USD"
   },
@@ -19,7 +19,7 @@
     "sku": "003",
     "name": "Seasons",
     "description": "A solo piano cycle of the four seasons, with plentiful references to associated melodies and ideas from the composer's life. Performance time is about 13 minutes. (Op. 4, 2018)",
-    "image": "https://www.dropbox.com/s/1dgxxdh1bpooodj/seasonsPreview.PNG?dl=0",
+    "image": "https://www.dropbox.com/s/1dgxxdh1bpooodj/seasonsPreview.PNG?raw=1",
     "amount": 1000,
     "currency": "USD"
   },
@@ -27,7 +27,7 @@
     "sku": "004",
     "name": "When early morn walks forth",
     "description": "A choral SATB setting of a powerful poem by William Blake. Performance time is about 4 minutes. (Op. 6, 2019)",
-    "image": "https://www.dropbox.com/s/hfxrfo1fiwsuf0t/earlyMornPreview.PNG?dl=0",
+    "image": "https://www.dropbox.com/s/hfxrfo1fiwsuf0t/earlyMornPreview.PNG?raw=1",
     "amount": 500,
     "currency": "USD"
   }
