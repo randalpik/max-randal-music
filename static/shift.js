@@ -34,9 +34,9 @@ window.onload = () => {
   var nOutput = document.getElementById("OUTNUM");
   var text = document.getElementById("OUTPUT");
   var startButton = document.getElementById("STARTBUTTON");
-  tOutput.innerHTML = tSlider.value + " seconds per shift";
+  tOutput.innerHTML = tSlider.value + ((tSlider.value == 1) ? " second" : " seconds") + " per shift";
   tSlider.oninput = function() {
-    tOutput.innerHTML = tSlider.value + " seconds per shift";
+    tOutput.innerHTML = tSlider.value + ((tSlider.value == 1) ? " second" : " seconds") + " per shift";
   }
   nOutput.innerHTML = "generate " + nSlider.value + " shifts";
   nSlider.oninput = function() {
@@ -48,7 +48,7 @@ window.onload = () => {
 
   document.getElementById("RUN").onclick = function () {
     if(shifting == false) {
-      startButton.innerText = "Stop Shifting";
+      startButton.value = "Stop Shifting";
       shifting = true;
       const names = solfege.checked ? ["Do", "Re", "Mi", "Fa", "Sol", "La", "Si"] : ["C", "D", "E", "F", "G", "A", "B"];
       const acc = solfege.checked ? ["-double-flat", "-flat", "", "-sharp", "-double-sharp"] : ["bb", "b", "", "#", "x"];
@@ -77,46 +77,50 @@ window.onload = () => {
       let curAcc = dichords[curKey];
       startingAcc = curAcc;
       let startingDichord = (12 + majorDichords[curKey] + curAcc)%12;
-      text.innerHTML += "<br>We are in ".concat(names[curKey], acc[curAcc + 2], modes[curMode],".");
-      text.scrollTop = text.scrollHeight;
       let numShifts = 0;
-      intID = setInterval(function() {
-        let viableShifts = [];
-        if (curMode == 0) {
-          if (curKey == 0 && curAcc == -1) viableShifts = majorShifts.slice(0, 2);
-          else if ((curKey == 4 || curKey == 1) && curAcc == -1) viableShifts = majorShifts.slice(0, 4);
-          else if (curKey == 0 && curAcc == 1) viableShifts = majorShifts.slice(1, 5);
-          else viableShifts = majorShifts;
-        } else if (curMode == 1) {
-          if (curKey == 5 && curAcc == -1) viableShifts = harmonicShifts.slice(0, 2);
-          else viableShifts = harmonicShifts;
-        } else if (curMode == 2) {
-          if (curKey == 5 && curAcc == 1) viableShifts = melodicShifts.slice(0, 1);
-          else if ((curKey == 1 || curKey == 4) && curAcc == 1) viableShifts = melodicShifts.slice(0, 3);
-          else viableShifts = melodicShifts;
-        }
-        if (rest) viableShifts = viableShifts.filter(shift => validModeDCs[shift.mode].includes((12 + majorDichords[(curKey + shift.shift)%7] + dichords[(curKey + shift.shift)%7] + (shift.deg == shift.shift ? shift.dir : 0) - startingDichord)%12));
-        let curShift = viableShifts[Math.floor(Math.random()*viableShifts.length)];
-        dichords[(curKey + curShift.deg)%7] += curShift.dir;
-        if (curShift.spec != 0) dichords[(curKey + 6)%7]--;
-        curMode = curShift.mode;
-        text.innerHTML += "<br>We introduce ".concat(names[(curKey + curShift.deg)%7], acc[dichords[(curKey + curShift.deg)%7] + 2], ".");
-        curKey = (curKey + curShift.shift)%7;
-        curAcc = dichords[curKey];
-        text.innerHTML += "<br>We are in ".concat(names[curKey], acc[curAcc + 2], modes[curMode], ".");
-        if(++numShifts >= n) {
+      let doShift = () => {
+        if(++numShifts > n) {
+          text.innerHTML += "<br>We are in ".concat(names[curKey], acc[curAcc + 2], modes[curMode], ".");
           clearInterval(intID);
           text.innerHTML += "<br>Completed ".concat(n, " shifts.");
-          startButton.innerText = "Start Shifting"
+          startButton.value = "Start Shifting"
           shifting = false;
+          text.scrollTop = text.scrollHeight;
+        } else {
+            text.innerHTML += "<br>We are in ".concat(names[curKey], acc[curAcc + 2], modes[curMode],".");
+            text.scrollTop = text.scrollHeight;
+            let viableShifts = [];
+            if (curMode == 0) {
+              if (curKey == 0 && curAcc == -1) viableShifts = majorShifts.slice(0, 2);
+              else if ((curKey == 4 || curKey == 1) && curAcc == -1) viableShifts = majorShifts.slice(0, 4);
+              else if (curKey == 0 && curAcc == 1) viableShifts = majorShifts.slice(1, 5);
+              else viableShifts = majorShifts;
+            } else if (curMode == 1) {
+              if (curKey == 5 && curAcc == -1) viableShifts = harmonicShifts.slice(0, 2);
+              else viableShifts = harmonicShifts;
+            } else if (curMode == 2) {
+              if (curKey == 5 && curAcc == 1) viableShifts = melodicShifts.slice(0, 1);
+              else if ((curKey == 1 || curKey == 4) && curAcc == 1) viableShifts = melodicShifts.slice(0, 3);
+              else viableShifts = melodicShifts;
+            }
+            if (rest) viableShifts = viableShifts.filter(shift => validModeDCs[shift.mode].includes((12 + majorDichords[(curKey + shift.shift)%7] + dichords[(curKey + shift.shift)%7] + (shift.deg == shift.shift ? shift.dir : 0) - startingDichord)%12));
+            let curShift = viableShifts[Math.floor(Math.random()*viableShifts.length)];
+            dichords[(curKey + curShift.deg)%7] += curShift.dir;
+            if (curShift.spec != 0) dichords[(curKey + 6)%7]--;
+            curMode = curShift.mode;
+            text.innerHTML += "<br>We introduce ".concat(names[(curKey + curShift.deg)%7], acc[dichords[(curKey + curShift.deg)%7] + 2], ".");
+            curKey = (curKey + curShift.shift)%7;
+            curAcc = dichords[curKey];
+            text.scrollTop = text.scrollHeight;
         }
-        text.scrollTop = text.scrollHeight;
-      }, time * 1000);
+      }
+      doShift();
+      intID = setInterval(doShift, time * 1000);
     } else {
       clearInterval(intID);
       text.innerHTML += "<br>Shifting canceled.";
       text.scrollTop = text.scrollHeight;
-      startButton.innerText = "Start Shifting";
+      startButton.value = "Start Shifting";
       shifting = false;
     }
   }
