@@ -9,6 +9,7 @@ weight: 2
 
 <body class="main-page">
   <main>
+    <p style="text-align: center;">You will be redirected to the Stripe checkout page to purchase products. Upon completion, a PDF file of the score will be emailed to you.</p>
     <div class="products"></div>
   </main>
   <template id="product">
