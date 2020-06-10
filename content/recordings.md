@@ -10,13 +10,20 @@ weight: 1
 <body class="main-page">
   <div style= "min-height: 69vh; display: flex;">
     <div style="width: 50%; margin-right: 5px;">
+      <h3>Enchantress</h3>
+      by Two Steps from Hell<br>
+      Arranged for two pianos by Max Randal<br>
+      Performed in June 2020
+      <a href="https://www.dropbox.com/s/yq1dz5dbuzk6zof/Randal_Enchantress.pdf?dl=0" target="_blank">Download the score for free</a>
+      {{< youtube wXZPOoeZgYs >}}
       <h3>The Covid-19 Fugue</h3>
       by Nicholas Papadimitriou<br>
       Performed in May 2020
       {{< youtube 47FGBWX9FuA >}}
       <h3>Variations on a Theme by Paulus</h3>
       by Max Randal<br>
-      Performed in April 2020
+      Performed in May 2020
+      <a href="https://www.dropbox.com/s/lll7dcuzv7fnf5r/Randal_PaulusVariations.pdf?dl=0" target="_blank">Download the score for free</a>
       {{< youtube Y8J6_YKwy-U >}}
       <h3>Three Movements from Petrushka</h3>
       by Igor Stravinsky<br>
