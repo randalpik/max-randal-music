@@ -10,10 +10,10 @@ weight: 1
 <body class="main-page">
   <div style= "min-height: 69vh; display: flex;">
     <div style="width: 50%; margin-right: 5px;">
-      <h3>Piano Improvisation No. 1<h3>
+      <h3>Piano Improvisation No. 1</h3>
       Performed in September 2020
       {{< youtube rzmtdTwXNfA >}}
-      <h3>Organ Improvisation No. 1<h3>
+      <h3>Organ Improvisation No. 1</h3>
       Based on "A Mighty Fortress is Our God"<br>
       Performed in September 2020
       {{< youtube G6sIjGi1jxA >}}
