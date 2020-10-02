@@ -76,13 +76,13 @@ weight: 1
       {{< youtube 2UmupC-Wx0o >}}      
       <h3>Piano Sonata No. 3</h3>
       by Frédéric Chopin<br>
-      Performed in June 2018
+      Performed in June 2018<br>
       <audio controls>
         <source src="../audio/ChopinSonata3.mp3" type="audio/mp3">
       </audio>
       <h3>Piano Sonata No. 1</h3>
       by Max Randal<br>
-      Performed in June 2018
+      Performed in June 2018<br>
       <audio controls>
         <source src="../audio/sonata1.mp3" type="audio/mp3">
       </audio>
