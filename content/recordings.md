@@ -10,25 +10,24 @@ weight: 1
 <body class="main-page">
   <div style= "min-height: 69vh; display: flex;">
     <div style="width: 50%; margin-right: 5px;">
+      <h3>Piano Improvisation No. 1<h3>
+      Performed in September 2020
+      {{< youtube rzmtdTwXNfA >}}
+      <h3>Organ Improvisation No. 1<h3>
+      Based on "A Mighty Fortress is Our God"<br>
+      Performed in September 2020
+      {{< youtube G6sIjGi1jxA >}}
       <h3>Enchantress</h3>
       by Two Steps from Hell<br>
       Arranged for two pianos by Max Randal<br>
       Performed in June 2020<br>
       <a href="https://www.dropbox.com/s/yq1dz5dbuzk6zof/Randal_Enchantress.pdf?dl=0" target="_blank">Download the score for free</a>
       {{< youtube wXZPOoeZgYs >}}
-      <h3>The Covid-19 Fugue</h3>
-      by Nicholas Papadimitriou<br>
-      Performed in May 2020
-      {{< youtube 47FGBWX9FuA >}}
       <h3>Variations on a Theme by Paulus</h3>
       by Max Randal<br>
       Performed in May 2020<br>
       <a href="https://www.dropbox.com/s/lll7dcuzv7fnf5r/Randal_PaulusVariations.pdf?dl=0" target="_blank">Download the score for free</a>
       {{< youtube Y8J6_YKwy-U >}}
-      <h3>Three Movements from Petrushka</h3>
-      by Igor Stravinsky<br>
-      Performed in November 2019
-      {{< youtube 2UmupC-Wx0o >}}
       <h3>Misty Mountains</h3>
       Arranged for 4 voices<br>
       Recorded by Max Randal in June 2019
@@ -42,12 +41,6 @@ weight: 1
       Recorded by Max Randal in May 2019<br>
       <a href="https://www.dropbox.com/s/c8wdibqzlud1quc/warcraftNew.pdf?dl=0" target="_blank">Download the score for free</a>
       {{< youtube fTvuMKxb2rY >}}
-      <h3>The Well (from The Ring)</h3>
-      Arranged for solo piano<br>
-      Recorded by Max Randal in April 2017
-      {{< youtube IZpM0CAP3Uo >}}
-    </div>
-    <div style="width: 50%; min-width: 150px; margin-left: 5px;">
       <h3>In Christ Alone</h3>
       Arranged by Max Randal for trombone quartet in March 2019<br>
       Recorded by Scott Randal<br>
@@ -55,6 +48,32 @@ weight: 1
       <audio controls>
         <source src="../audio/inChristAloneFinal.mp3" type="audio/mp3">
       </audio>
+      <h3>The Well (from The Ring)</h3>
+      Arranged for solo piano<br>
+      Recorded by Max Randal in April 2017
+      {{< youtube IZpM0CAP3Uo >}}
+    </div>
+    <div style="width: 50%; min-width: 150px; margin-left: 5px;">
+      <h3>Piano Concerto in A minor</h3>
+      by Edvard Grieg<br>
+      Perfomed on two pianos in August 2020
+      {{< youtube aasm1ZBD_j8 >}}
+      <h3>Piano Concerto No. 1</h3>
+      by Franz Liszt<br>
+      Performed on two pianos in July 2020
+      {{< youtube Vtt3Bk9Lt1U >}}
+      <h3>Piano Concerto No. 3, I</h3>
+      by Sergei Rachmaninoff<br>
+      Performed on two pianos in July 2020
+      {{< youtube aCJ6O8BRzVA >}}
+      <h3>The Covid-19 Fugue</h3>
+      by Nicholas Papadimitriou<br>
+      Performed in May 2020
+      {{< youtube 47FGBWX9FuA >}}
+      <h3>Three Movements from Petrushka</h3>
+      by Igor Stravinsky<br>
+      Performed in November 2019
+      {{< youtube 2UmupC-Wx0o >}}      
       <h3>Piano Sonata No. 3</h3>
       by Frédéric Chopin<br>
       Performed in June 2018
