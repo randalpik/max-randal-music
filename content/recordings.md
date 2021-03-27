@@ -10,6 +10,19 @@ weight: 1
 <body class="main-page">
   <div style= "min-height: 69vh; display: flex;">
     <div style="width: 50%; margin-right: 5px;">
+      <h3>Paraphrase and Fugue on Greensleeves</h3>
+      Composed by Max Randal for trombone sextet<br>
+      Performed by Scott Randal in March 2021
+      {{< youtube NO3iSnXz52s >}}
+      <h3>In the Bleak Midwinter</h3>
+      by Jacob Collier<br>
+      Arranged for organ by Max Randal<br>
+      Performed in December 2020
+      {{< youtube B3bb_qV0ykY >}}
+      <h3>Jolene</h3>
+      Arranged for 3 voices by Max Randal<br>
+      Performed in November 2020
+      {{< youtube gOfw1ckwSNM >}}
       <h3>Piano Improvisation No. 1</h3>
       Performed in September 2020
       {{< youtube rzmtdTwXNfA >}}
@@ -17,6 +30,10 @@ weight: 1
       Based on "A Mighty Fortress is Our God"<br>
       Performed in September 2020
       {{< youtube G6sIjGi1jxA >}}
+      <h3>Corpse Bride Medley</h3>
+      Arranged for solo piano by Max Randal<br>
+      {{< youtube jI_o237kuhA >}}
+      Recorded by Max Randal in August 2020
       <h3>Enchantress</h3>
       by Two Steps from Hell<br>
       Arranged for two pianos by Max Randal<br>
@@ -42,8 +59,8 @@ weight: 1
       <a href="https://www.dropbox.com/s/c8wdibqzlud1quc/warcraftNew.pdf?dl=0" target="_blank">Download the score for free</a>
       {{< youtube fTvuMKxb2rY >}}
       <h3>In Christ Alone</h3>
-      Arranged by Max Randal for trombone quartet in March 2019<br>
-      Recorded by Scott Randal<br>
+      Arranged by Max Randal for trombone quartet<br>
+      Recorded by Scott Randal in March 2019<br>
       <a href="https://www.dropbox.com/s/cb8wxs9qv0av1c5/inChristAlone_Score.pdf?dl=0" target="_blank">Download the score for free</a>
       <audio controls>
         <source src="../audio/inChristAloneFinal.mp3" type="audio/mp3">
@@ -54,6 +71,22 @@ weight: 1
       {{< youtube IZpM0CAP3Uo >}}
     </div>
     <div style="width: 50%; min-width: 150px; margin-left: 5px;">
+      <h3>Come December</h3>
+      by Georgia Peake<br>
+      Performed in February 2021
+      {{< youtube VeJIkMeQd4Q >}}
+      <h3>Etude in C-sharp minor, Op. 42, No. 5</h3>
+      by Alexander Scriabin<br>
+      Performed in January 2021
+      {{< youtube nw9pbCQOKg0 >}}
+      <h3>The Sun Is In Your Eyes</h3>
+      by Jacob Collier<br>
+      Performed in January 2021
+      {{< youtube Mh-bFh_eNJQ >}}
+      <h3>"Little" Fugue in G minor, BWV 578</h3>
+      by J.S. Bach<br>
+      Performed in November 2020
+      {{< youtube Qys8N1ROY7s >}}
       <h3>Piano Concerto in A minor</h3>
       by Edvard Grieg<br>
       Perfomed on two pianos in August 2020
