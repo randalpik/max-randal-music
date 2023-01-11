@@ -10,6 +10,20 @@ weight: 1
 <body class="main-page">
   <div style= "min-height: 69vh; display: flex;">
     <div style="width: 50%; margin-right: 5px;">
+      <h3>When You Let Down Your Hair</h3>
+      by Amelia Day<br>
+      Arranged for 10 voices and melodica by Max Randal<br>
+      Recorded in December 2022
+      {{< youtube pzbdEmkNoDw >}}
+      <h3>The Christmas Song</h3>
+      by Jacob Collier<br>
+      Arranged for organ and voice by Max Randal<br>
+      Performed in December 2021
+      {{< youtube nIYb1a4XSy8 }}
+      <h3>I Love You, Lord</h3>
+      Arranged for 8 voices and tubular bells<br>
+      Recorded in October 2021
+      {{< youtube x7mUFg-zI5k >}}
       <h3>Paraphrase and Fugue on Greensleeves</h3>
       Composed by Max Randal for trombone sextet<br>
       Performed by Scott Randal in March 2021
@@ -23,17 +37,10 @@ weight: 1
       Arranged for 3 voices by Max Randal<br>
       Performed in November 2020
       {{< youtube gOfw1ckwSNM >}}
-      <h3>Piano Improvisation No. 1</h3>
-      Performed in September 2020
-      {{< youtube rzmtdTwXNfA >}}
-      <h3>Organ Improvisation No. 1</h3>
-      Based on "A Mighty Fortress is Our God"<br>
-      Performed in September 2020
-      {{< youtube G6sIjGi1jxA >}}
       <h3>Corpse Bride Medley</h3>
       Arranged for solo piano by Max Randal<br>
+      Recorded in August 2020
       {{< youtube jI_o237kuhA >}}
-      Recorded by Max Randal in August 2020
       <h3>Enchantress</h3>
       by Two Steps from Hell<br>
       Arranged for two pianos by Max Randal<br>
@@ -71,10 +78,14 @@ weight: 1
       {{< youtube IZpM0CAP3Uo >}}
     </div>
     <div style="width: 50%; min-width: 150px; margin-left: 5px;">
-      <h3>Come December</h3>
-      by Georgia Peake<br>
-      Performed in February 2021
-      {{< youtube VeJIkMeQd4Q >}}
+      <h3>Piano Concerto No. 2</h3>
+      by Sergei Rachmaninoff<br>
+      Arranged for organ reduction and recorded in October 2022
+      {{< youtube f7ABNEPSwzg >}}
+      <h3>Fugue in A minor, Op. 11</h3>
+      by Max Randal<br>
+      Performed in November 2021
+      {{< youtube 071YLU6qONI >}}
       <h3>Etude in C-sharp minor, Op. 42, No. 5</h3>
       by Alexander Scriabin<br>
       Performed in January 2021
