@@ -19,7 +19,7 @@ weight: 1
       by Jacob Collier<br>
       Arranged for organ and voice by Max Randal<br>
       Performed in December 2021
-      {{< youtube nIYb1a4XSy8 }}
+      {{< youtube nIYb1a4XSy8 >}}
       <h3>I Love You, Lord</h3>
       Arranged for 8 voices and tubular bells<br>
       Recorded in October 2021

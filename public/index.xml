@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Home on Max Randal Music</title>
+    <link>https://maxrandalmusic.com/</link>
+    <description>Recent content in Home on Max Randal Music</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://maxrandalmusic.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Recordings</title>
+      <link>https://maxrandalmusic.com/recordings/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://maxrandalmusic.com/recordings/</guid>
+      <description>When You Let Down Your Hairby Amelia Day
+Arranged for 10 voices and melodica by Max Randal
+Recorded in December 2022  The Christmas Songby Jacob Collier
+Arranged for organ and voice by Max Randal
+Performed in December 2021  I Love You, LordArranged for 8 voices and tubular bells
+Recorded in October 2021  Paraphrase and Fugue on GreensleevesComposed by Max Randal for trombone sextet</description>
+    </item>
+    
+    <item>
+      <title>Scores</title>
+      <link>https://maxrandalmusic.com/scores/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://maxrandalmusic.com/scores/</guid>
+      <description>You will be redirected to the Stripe checkout page to purchase products. Upon completion, a PDF file of the score will be emailed to you.
+namedescription
+priceBuy Nowimport { loadProducts } from &#39;../js/load-products.js&#39;;loadProducts();</description>
+    </item>
+    
+    <item>
+      <title>Services</title>
+      <link>https://maxrandalmusic.com/services/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://maxrandalmusic.com/services/</guid>
+      <description>Transcription ServicesMax is currently accepting offers for transcription and arrangement projects. If you have a recording that you would like him to transcribe, contact him using this form. Please include a link to the audio file, and indicate whether you would like a piano reduction (preferred), full transcription, or arrangement for other instrumentation. Max will gladly work with you to customize the product to fit your ensemble and your own specific vision.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://maxrandalmusic.com/sections/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://maxrandalmusic.com/sections/about/</guid>
+      <description>Max Randal (b. 1999) is currently working as a Musical Engineer for Edify Technologies (developers of MusiQuest) and serving as the Minister of Music at Hillwood Presbyterian Church in Nashville, Tennessee. He holds a Bachelor of Music in Piano Performance from Vanderbilt University, where he studied solo performance with Karen Ann Krieger, collaborative techniques with Dean Melissa Rose, organ and baroque realization with Dr. Polly Brecht, and advanced musicianship with Marianne Ploger.</description>
+    </item>
+    
+  </channel>
+</rss>
