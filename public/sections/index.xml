@@ -2,18 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Sections on Max Randal Music</title>
-    <link>https://maxrandalmusic.com/sections/</link>
+    <link>http://localhost:1313/sections/</link>
     <description>Recent content in Sections on Max Randal Music</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://maxrandalmusic.com/sections/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="http://localhost:1313/sections/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title></title>
-      <link>https://maxrandalmusic.com/sections/about/</link>
+      <link>http://localhost:1313/sections/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://maxrandalmusic.com/sections/about/</guid>
-      <description>Max Randal (b. 1999) is currently pursuing a Master of Music in Collaborative Piano at the University of Colorado Boulder, in the studio of Dr. Margaret McDonald and Dr. Alexandra Nguyen. He holds a Bachelor of Music in Piano Performance from Vanderbilt University in Nashville, Tennessee, where he studied solo performance with Karen Ann Krieger, collaborative techniques with Dean Melissa Rose, organ and baroque realization with Dr. Polly Brecht, and advanced musicianship with Marianne Ploger, while singing in the Vanderbilt Chorale and Nashville Symphony Chorus.</description>
+      <guid>http://localhost:1313/sections/about/</guid>
+      <description>&lt;div style= &#34;display: flex;&#34;&gt;&#xA;  &lt;div style=&#34;width: 33%;&#34;&gt;&#xA;    &lt;img style=&#34;float: right; border: 3px solid #333333; border-radius: 3px; width: 100%;&#34; src=&#34;./images/profile.jpg&#34; alt=&#34;Max Randal&#34;&gt;&#xA;  &lt;/div&gt;&#xA;  &lt;div style=&#34;width: 67%; text-indent: 20px; margin-left: 10px;&#34;&gt;&#xA;    &lt;p&gt;Max Randal (b. 1999) is currently pursuing a Master of Music in Collaborative Piano at the University of Colorado Boulder, in the studio of Dr. Margaret McDonald and Dr. Alexandra Nguyen. He holds a Bachelor of Music in Piano Performance from Vanderbilt University in Nashville, Tennessee, where he studied solo performance with Karen Ann Krieger, collaborative techniques with Dean Melissa Rose, organ and baroque realization with Dr. Polly Brecht, and advanced musicianship with Marianne Ploger, while singing in the Vanderbilt Chorale and Nashville Symphony Chorus. Max has also studied computer science, and is now the Lead Musical Engineer at Edify Technologies (developers of &lt;a href=&#34;https://app.musiquest.com&#34;&gt;MusiQuest&lt;/a&gt;) and creator of the cross-platform ear training app &lt;a href=&#34;https://intonalogy.com&#34;&gt;Intonalogy&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

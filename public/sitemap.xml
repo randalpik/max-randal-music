@@ -2,22 +2,22 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://maxrandalmusic.com/</loc>
+    <loc>http://localhost:1313/</loc>
   </url><url>
-    <loc>https://maxrandalmusic.com/recordings/</loc>
+    <loc>http://localhost:1313/recordings/</loc>
   </url><url>
-    <loc>https://maxrandalmusic.com/scores/</loc>
+    <loc>http://localhost:1313/scores/</loc>
   </url><url>
-    <loc>https://maxrandalmusic.com/services/</loc>
+    <loc>http://localhost:1313/services/</loc>
   </url><url>
-    <loc>https://maxrandalmusic.com/contact/</loc>
+    <loc>http://localhost:1313/contact/</loc>
   </url><url>
-    <loc>https://maxrandalmusic.com/sections/about/</loc>
+    <loc>http://localhost:1313/sections/about/</loc>
   </url><url>
-    <loc>https://maxrandalmusic.com/categories/</loc>
+    <loc>http://localhost:1313/categories/</loc>
   </url><url>
-    <loc>https://maxrandalmusic.com/sections/</loc>
+    <loc>http://localhost:1313/sections/</loc>
   </url><url>
-    <loc>https://maxrandalmusic.com/tags/</loc>
+    <loc>http://localhost:1313/tags/</loc>
   </url>
 </urlset>
