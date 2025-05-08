@@ -78,6 +78,14 @@ weight: 1
       {{< youtube IZpM0CAP3Uo >}}
     </div>
     <div style="width: 50%; min-width: 150px; margin-left: 5px;">
+      <h3>Sonata for Cello and Piano in G minor, Op. 19</h3>
+      by Sergei Rachmaninoff<br>
+      Performed by Erik Okel and Max Randal in March 2025
+      {{< youtube Tt_4_UNSu_I >}}
+      <h3>Geduld, Op. 10, No. 5</h3>
+      by Richard Strauss<br>
+      Performed by Sidney Grimm and Max Randal in October 2024
+      {{< youtube FpS5AWsBErs >}}
       <h3>Piano Concerto No. 2</h3>
       by Sergei Rachmaninoff<br>
       Arranged for organ reduction and recorded in October 2022
